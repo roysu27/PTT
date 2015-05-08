@@ -1,0 +1,18 @@
+{
+  "name": "ptt",
+  "version": "1.0.0",
+  "description": "ptt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ptt"
+  ],
+  "author": "Roy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "express3-handlebars": "^0.5.2"
+  }
+}

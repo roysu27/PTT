@@ -1,0 +1,21 @@
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th class=span1>回應</th>
+			<th>標題</th>
+			<th class=span2>作者</th>
+			<th class=span2>時間</th>
+		</tr>
+	</thean>
+	<tbody>
+		{{#each titles}}
+			<tr>
+				<td><span class="badge">{{reply}}</span></td>
+				<td>{{title}}</td>
+				<td>{{author}}</td>
+				<td>{{time}}</td>
+			</tr>
+		{{/each}}
+
+	</tbody>
+</table>
